@@ -1,5 +1,7 @@
 class NotesController < ApplicationController
 
+  
+
   def index
    ideas = Note.all
    @s_ideas = ideas.shuffle
