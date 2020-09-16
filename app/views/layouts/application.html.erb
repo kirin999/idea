@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Idea</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1><%= link_to "アイディア製造機", root_path, class: "logo"%></h1>
+      <ul class="header_menu">
+       <% if user_signed_in? %>
+          <li><%= link_to "ログアウト", destroy_user_session_path ,method: :delete%></li>
+          <li><a href="#" class="post">投稿する</a></li>
+       <% else %>
+          <li><%= link_to "新規登録", new_user_registration_path, class: "post"%></li>
+          <li><%= link_to "ログイン", new_user_session_path, class: "post" %></li>
+       <% end %>
+      </ul>
+    </header>
+    <%= yield %>
+  </body>
+</html>

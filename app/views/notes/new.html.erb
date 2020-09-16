@@ -1,0 +1,5 @@
+<%= form_for @idea do |f|%>
+<P>タイトル: <%= f.text_field :title%></P>
+<p>アイディア: <%= f.text_area :idea%></P>
+<P><%= f.submit "送信" %></p>
+<%end%>
