@@ -1,7 +1,9 @@
 
-<h1 class="title">アイディア製造機</h1>
+
+<h1 class="title"><%= "#{current_user.name}の"%><br>アイディア製造機</h1>
+
 <div class="menu">
-    <p>やり方をみる</p>
+    <p><%= link_to "やり方を見る", tops_tutorial_path %></p>
     <p><%= link_to "投稿する", new_note_path %></p>
     <p><%= link_to "アイデア合体", notes_index_path %></p>
 </div>
