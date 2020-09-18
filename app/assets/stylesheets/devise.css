@@ -1,0 +1,32 @@
+.new_user {
+    font-size: 2rem;
+}
+
+.field {
+    margin: 20px;
+}
+
+.log_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log_in_title {
+    padding: 50px;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+
+.lgo {
+    margin-right: 30px;
+    background-image: url(./963199_l.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 42px;
+    box-shadow: 2px 2px 4px;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}

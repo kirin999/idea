@@ -58,3 +58,28 @@ body {
     color: black;
 }
 
+.post:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px #808080;;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: aqua;
+    text-shadow: 1px 2px 3px #808080;;
+}
+
+.tutorial_text {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.tutorial_title {
+    font-size: 3rem;
+    padding: 50px;
+}
