@@ -16,6 +16,17 @@
 
 ### 依存ライブラリ
 * Bundler version 2.1.4
+
+bundlerダウンロード
+
+```
+gem install bundler -v '2.1.4'
+```
+バージョン確認
+
+```
+bundle -v
+```
 * mysql  Ver 8.0.21 for osx10.14 on x86_64 (Homebrew)
 
 ### git clone後
