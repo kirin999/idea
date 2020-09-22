@@ -24,6 +24,17 @@
 ```
 bundle install
 ```
+ターミナルでrails db:createを実行
+
+```
+rails db:create
+```
+
+ターミナルでrails db:migrateを実行
+
+```
+rails db:migrate
+```
 
 ### 起動方法
 railsサーバー立ち上げ
